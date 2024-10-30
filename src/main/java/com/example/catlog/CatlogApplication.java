@@ -9,7 +9,8 @@ public class CatlogApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(CatlogApplication.class, args);
 
-		// Call the SecretSharing logic here
-		SecretSharing.runSecretSharing();
+		// Call the SecretSharing logic for both input files
+		SecretSharing.runSecretSharing("input1.json");
+		SecretSharing.runSecretSharing("input2.json");
 	}
-}	
+}
