@@ -15,3 +15,10 @@ This project implements a simplified version of Shamir's Secret Sharing algorith
    ```bash
    git clone https://github.com/your_username/shamir-secret-sharing.git
    cd shamir-secret-sharing
+
+2 . test case 1 & test case 2
+```bash 
+
+      The constant term c for file input1.json is: 3  
+
+      The constant term c for file input2.json is: 263490999
